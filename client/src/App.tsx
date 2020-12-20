@@ -18,7 +18,7 @@ const App: React.FC = () => {
 
   useEffect(() => {
     void getAll();
-  }, [sortBy, setNamesWithTotal]);
+  }, [sortBy]);
 
   const findByName = async (event: React.FormEvent) => {
     event.preventDefault();
